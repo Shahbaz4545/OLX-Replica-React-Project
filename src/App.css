@@ -1,0 +1,347 @@
+*{
+  margin: auto;
+}
+.color{color: #002f34;}
+
+.logo{
+  width: 50px;
+  height: 35px;
+  margin: 12px;
+}
+.header{
+  top: 0px;
+  left: -30px;
+  right: 0px;
+  height: 70px;
+  z-index: 9;
+  background: #f1f1f1;
+  box-shadow: 0px 2px 2px #dadada;
+  padding: 0 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .logo{
+  width: 50px;
+}
+.header .logo img{
+  width: 100%;
+}
+.di{
+  display: inline;
+}
+.header .location{
+  background: #fff;
+  border: 2px #002f34 solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 32px;
+}
+.header .location .ico{
+  padding: 5px;
+}
+.header .location .label{
+  flex: 1;
+  padding: 0;
+  border: none;
+}
+.header .location .arrow{
+}
+
+.header .search{
+  background: #fff;
+  border: 2px #002f34 solid;
+  border-radius: 3px;
+  margin-top: 20px;
+  height: 32px;
+  flex: 2;
+}
+.header .search .query{
+  flex: 1;
+  border:0px;
+}
+.header .search .go{
+  flex: 1;
+  padding: 5px;
+  border: 0px;
+  background: #002f34;
+  max-width: 40px;
+  height: 30px;
+  color: #fff;
+}
+.header .search .go:Hover{}
+
+.header .action {
+  flex: 1;
+  align-items: flex-end;
+  max-width: 200px;
+  justify-content: flex-end;
+  text-align: center;
+}
+.header .action a{
+  margin-bottom: 20px;
+  padding: 0px 20px ;
+  color: #002f34;
+  text-align: center;
+
+}
+.header .action .sell{
+  padding: 0px 10px ;
+  border: 5px solid hsla(182, 100%, 50%, 0.993);
+  border-top-color:#2052e6;
+  border-bottom-color: #ffa500;
+  color: #002f34;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 3px 5px #aaa8a8;
+  margin-bottom: 11px;
+}
+.backImgSell{
+width:100%;
+height: 250px;
+background-position: center;
+}
+.header .action .sell:hover{}
+
+.hnav{
+  top:70px;
+  left: -30px;
+  right: 0px;
+  height: 50px;
+  z-index: 8;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgb(218 218 218 / 36%);
+  padding: 0 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hnav .view-cates{
+  height: 90%;
+  line-height: 0.3;
+  border: 0px;
+  padding: 5px 15px 0 ;
+  background: rgb(0, 0, 0, 0);
+}
+.hnav .view-cates .arrow{
+  margin-bottom: 10px;
+  background: rgb(0, 0, 0, 0);
+}
+.hnav .view-cates:hover{
+  background: #f1f1f1;
+}
+.hnav a{
+  
+}
+.additem .title{
+  height: 20px;
+}
+.hclr{
+  height: 120px;
+}
+.index-page{
+  padding: 20px 11.4%;
+}
+.ad-list{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.additem{
+  max-width: 288px;
+  max-height: 266px;
+  min-width: 288px;
+  min-height: 266px;
+  flex-basis: 25%;
+  margin: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-left:8px solid rgb(255, 197, 88) ;
+}
+.additem .poster{
+  height: 160px;
+  /* background-image: url('https://apollo-singapore.akamaized.net/v1/files/0enpz5l6wgmr-PK/image;s=200x400;q=60'); */
+}
+.additem .poster.placeholder{}
+.additem .title{
+  margin: 10px 0px;
+}
+.additem .title.placeholder{
+  width:75%;
+  height: 25px;
+
+}
+.additem .tagline{
+  font-size: 15px;
+}
+.additem .tagline.placeholder{
+  width: 90%;
+  height: 20px;
+  margin-right: 10%;
+}
+.additem .ftr{
+  margin-top: 15px;
+}
+.additem .ftr .location{
+  flex: 2;
+  font-size: 15px;
+  line-height: 0.5;
+}
+.additem .ftr .location.placeholder{
+  height: 12px;
+  max-width: 100px;
+}
+.additem .ftr .stamp{
+  flex: 1;
+}
+.additem .ftr .stamp.placeholder{
+  height: 0px;
+}
+.load-more{
+  margin: 50px auto;
+  display: table;
+  padding: 15px;
+  border: 3px solid #012f34;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: inset 0px 0px 0px 0px #012f34;
+  color: #012f34;
+}
+.load-more:hover{
+  box-shadow: inset -1px -1px 0px 30px #012f34;
+  color: #fff;
+}
+.app-ribbon{
+  padding: 0px 18%;
+  background: #f9f9f9;
+}
+.app-ribbon .img{
+  margin-left: -12%;
+}
+.app-ribbon .img img{}
+.app-ribbon .meta{
+
+}
+.app-ribbon .meta .title{}
+.app-ribbon .meta .slogan{}
+.app-ribbon .links{}
+.app-ribbon .links .title{
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.app-ribbon .links .as{
+  margin-left: 10%;
+}
+.app-ribbon .links a{
+  margin: 0px 10px 0px 0px;
+}
+.app-ribbon .links a:hover{}
+
+.footer{
+  padding: 0px 18%;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  clear: left;
+}
+.footer .block{
+  flex: 1;
+  padding: 20px 0% 40px 10px;
+  text-align: left;
+  background: #f1f1f1;
+}
+.footer .block .title{
+  margin-bottom: 15px;
+}
+.footer .block{
+  line-height: 1;
+  margin-left: -5%;
+}
+.fnoul{
+  margin-top: 15px;
+  color: #a3a3a3;
+  margin-left: 0px;
+}
+.fnoulh:hover{
+  color: black;
+  text-decoration: none;
+}
+.Flinks{
+ flex: 1;
+}
+.Fcions{
+  list-style: none;
+  margin-left: -13%;
+}
+.Fcions li{
+  text-decoration: none;
+  display: inline;
+  font-size: 30px;
+  padding: 5px;
+  color: #012f34;
+}
+.footerFollow{
+  margin-left: 5%;
+}
+.footerb{
+  padding: 15px 18%;
+  background: #012f34;
+  color: #fff;
+}
+.footerb h2{
+  flex: 1;
+}
+.r{
+ text-align: right;
+}
+/* Car Component */
+.carComp_Main{
+  width: auto;
+  height: auto;
+}
+.img_ad{
+margin: 10px 10% 0 7%;
+cursor:pointer;
+}
+.cross{
+  margin: -32% 0% 10% 90%;
+  color: #f9f9f9;
+  cursor:pointer;
+}
+.slider-main{
+  width: 65%;
+  height: auto;
+  margin-left: -0%;
+  float: left;
+  background-color: black;
+  
+}
+.slider-img{
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+  clear: left;
+}
+.car-money{
+  margin-left: 5px;
+  width: auto;
+  height: 240px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+#Profile_img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  float: left;
+}
+.detal-car-table{
+  width: 100%;
+  height: auto;
+
+}
+.detal-car-table tr td{
+  padding: 10px;
+
+}
